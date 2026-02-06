@@ -38,12 +38,27 @@ const Root = () => (
   </QueryClientProvider>
 );
 
-const rootElement = document.getElementById("root");
-if (rootElement) {
-  // Check if root was already created to prevent duplicate createRoot() calls during HMR
-  const rootKey = "__reactRoot";
-  if (!(window as any)[rootKey]) {
-    (window as any)[rootKey] = createRoot(rootElement);
+declare global {
+  interface Window {
+    __reactRoot?: any;
   }
-  (window as any)[rootKey].render(<Root />);
+}
+
+function renderApp() {
+  const rootElement = document.getElementById("root");
+  if (!rootElement) return;
+
+  if (!window.__reactRoot) {
+    window.__reactRoot = createRoot(rootElement);
+  }
+  window.__reactRoot.render(<Root />);
+}
+
+renderApp();
+
+// Handle HMR updates
+if (import.meta.hot) {
+  import.meta.hot.accept(() => {
+    renderApp();
+  });
 }
