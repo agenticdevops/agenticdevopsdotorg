@@ -15,14 +15,15 @@ export default function TheCollective() {
                 The Collective
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                <strong>Agentic DevOps Collective</strong> is a builder-led community exploring how{" "}
-                <strong>agentic AI systems</strong> can be applied to real-world DevOps, SRE, and
-                platform engineering.
+                <strong>Agentic DevOps Collective</strong> is a builder-led
+                community exploring how <strong>agentic AI systems</strong> can
+                be applied to real-world DevOps, SRE, and platform engineering.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mt-4">
-                We bring together practitioners who don't just talk about AI for operations — but
-                actively <strong>build, test, and operate agentic systems</strong> in real
-                environments.
+                We bring together practitioners who don't just talk about AI for
+                operations — but actively{" "}
+                <strong>build, test, and operate agentic systems</strong> in
+                real environments.
               </p>
             </div>
           </div>
@@ -32,14 +33,18 @@ export default function TheCollective() {
         <section className="py-16 md:py-24 px-4 bg-secondary/20">
           <div className="container mx-auto">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold text-foreground mb-6">Why We Exist</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-6">
+                Why We Exist
+              </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 AI is reshaping how systems are built and operated.
                 <br />
                 For DevOps and SRE professionals, this shift is not optional.
               </p>
               <div className="bg-background border border-border rounded-lg p-6 mb-6">
-                <p className="text-foreground font-semibold mb-4">We exist to:</p>
+                <p className="text-foreground font-semibold mb-4">
+                  We exist to:
+                </p>
                 <ul className="space-y-3 text-muted-foreground">
                   <li className="flex items-start gap-3">
                     <span className="text-primary font-bold mt-1">•</span>
@@ -49,20 +54,18 @@ export default function TheCollective() {
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-primary font-bold mt-1">•</span>
-                    <span>
-                      Share practical patterns, failures, and lessons
-                    </span>
+                    <span>Share practical patterns, failures, and lessons</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-primary font-bold mt-1">•</span>
+                    <span>Build open source frameworks and tools</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-primary font-bold mt-1">•</span>
                     <span>
-                      Build open source frameworks and tools
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-primary font-bold mt-1">•</span>
-                    <span>
-                      Help practitioners <strong>adapt, survive, and thrive</strong> in the age of AI
+                      Help practitioners{" "}
+                      <strong>adapt, survive, and thrive</strong> in the age of
+                      AI
                     </span>
                   </li>
                 </ul>
@@ -78,28 +81,38 @@ export default function TheCollective() {
         <section className="py-16 md:py-24 px-4">
           <div className="container mx-auto">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold text-foreground mb-8">How We Work</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-8">
+                How We Work
+              </h2>
               <div className="space-y-4">
                 <div className="p-6 border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-2">Builders First</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    Builders First
+                  </h3>
                   <p className="text-muted-foreground">
                     Working systems over opinions
                   </p>
                 </div>
                 <div className="p-6 border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-2">Open by Default</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    Open by Default
+                  </h3>
                   <p className="text-muted-foreground">
                     Knowledge and core tools shared openly
                   </p>
                 </div>
                 <div className="p-6 border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-2">Human-Centered Automation</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    Human-Centered Automation
+                  </h3>
                   <p className="text-muted-foreground">
                     Agents augment, not replace, operators
                   </p>
                 </div>
                 <div className="p-6 border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-2">Practical Over Performative</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    Practical Over Performative
+                  </h3>
                   <p className="text-muted-foreground">
                     Production reality matters
                   </p>
@@ -107,7 +120,8 @@ export default function TheCollective() {
               </div>
               <div className="mt-8 p-6 bg-secondary/10 border border-border rounded-lg">
                 <p className="text-foreground font-semibold">
-                  If it can't survive contact with real infrastructure, it doesn't belong here.
+                  If it can't survive contact with real infrastructure, it
+                  doesn't belong here.
                 </p>
               </div>
             </div>
@@ -122,13 +136,16 @@ export default function TheCollective() {
                 Open Source and Value Creation
               </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                We actively support <strong>open source projects</strong> and open knowledge sharing.
+                We actively support <strong>open source projects</strong> and
+                open knowledge sharing.
               </p>
               <div className="bg-background border border-border rounded-lg p-6 mb-6">
-                <p className="text-foreground font-semibold mb-4">We are also explicit about this:</p>
+                <p className="text-foreground font-semibold mb-4">
+                  We are also explicit about this:
+                </p>
                 <p className="text-muted-foreground italic">
-                  "Creating real value should allow contributors, companies, and sponsors to
-                  benefit."
+                  "Creating real value should allow contributors, companies, and
+                  sponsors to benefit."
                 </p>
               </div>
               <p className="text-muted-foreground mb-6 leading-relaxed">
@@ -137,11 +154,12 @@ export default function TheCollective() {
                 When done transparently, they reinforce each other.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Members and organizations may build <strong>commercial products independently</strong>{" "}
-                based on their work or learnings.
+                Members and organizations may build{" "}
+                <strong>commercial products independently</strong> based on
+                their work or learnings.
                 <br />
-                The collective itself remains a <strong>community initiative</strong>, not a vendor
-                or product.
+                The collective itself remains a{" "}
+                <strong>community initiative</strong>, not a vendor or product.
               </p>
             </div>
           </div>
@@ -151,13 +169,17 @@ export default function TheCollective() {
         <section className="py-16 md:py-24 px-4">
           <div className="container mx-auto">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold text-foreground mb-6">Governance and Evolution</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-6">
+                Governance and Evolution
+              </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Today, the collective is <strong>initiated and guided</strong> by its founder and a
-                small group of contributors.
+                Today, the collective is <strong>initiated and guided</strong>{" "}
+                by its founder and a small group of contributors.
               </p>
               <div className="bg-secondary/10 border border-border rounded-lg p-6 mb-6">
-                <p className="text-foreground font-semibold mb-4">Over time, it is intended to:</p>
+                <p className="text-foreground font-semibold mb-4">
+                  Over time, it is intended to:
+                </p>
                 <ul className="space-y-3 text-muted-foreground">
                   <li className="flex items-start gap-3">
                     <span className="text-primary font-bold mt-1">•</span>
@@ -169,7 +191,9 @@ export default function TheCollective() {
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-primary font-bold mt-1">•</span>
-                    <span>Evolve its governance organically as the community matures</span>
+                    <span>
+                      Evolve its governance organically as the community matures
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -184,7 +208,9 @@ export default function TheCollective() {
         <section className="py-16 md:py-24 px-4 bg-secondary/20">
           <div className="container mx-auto">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">The Bottom Line</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
+                The Bottom Line
+              </h2>
               <div className="bg-background border-l-4 border-primary rounded-r-lg p-8">
                 <p className="text-lg text-foreground leading-relaxed space-y-4">
                   <span className="block">
@@ -194,7 +220,9 @@ export default function TheCollective() {
                     <strong>Create real value.</strong>
                   </span>
                   <span className="block">
-                    <strong>Let those who contribute meaningfully benefit.</strong>
+                    <strong>
+                      Let those who contribute meaningfully benefit.
+                    </strong>
                   </span>
                   <span className="block">
                     <strong>Navigate the age of AI — together.</strong>
@@ -209,7 +237,9 @@ export default function TheCollective() {
         <section className="py-16 md:py-24 px-4">
           <div className="container mx-auto">
             <div className="max-w-2xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Join Us</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+                Join Us
+              </h2>
               <p className="text-lg text-muted-foreground mb-8">
                 If this resonates, we'd love to have you build with us.
               </p>
