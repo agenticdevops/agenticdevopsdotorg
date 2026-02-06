@@ -38,10 +38,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/about"
+                  href="/the-collective"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  About
+                  The Collective
                 </a>
               </li>
             </ul>
