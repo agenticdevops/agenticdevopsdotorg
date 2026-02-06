@@ -25,6 +25,7 @@ const Root = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/the-collective" element={<TheCollective />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/community" element={<Community />} />
           <Route path="/resources" element={<Resources />} />
