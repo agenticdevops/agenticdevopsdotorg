@@ -145,6 +145,13 @@ export default function Header() {
               Home
             </Link>
             <Link
+              to="/the-collective"
+              className="block px-4 py-2 text-foreground hover:bg-secondary transition-colors rounded"
+              onClick={() => setIsOpen(false)}
+            >
+              The Collective
+            </Link>
+            <Link
               to="/projects"
               className="block px-4 py-2 text-foreground hover:bg-secondary transition-colors rounded"
               onClick={() => setIsOpen(false)}
@@ -171,13 +178,6 @@ export default function Header() {
               onClick={() => setIsOpen(false)}
             >
               Events
-            </Link>
-            <Link
-              to="/about"
-              className="block px-4 py-2 text-foreground hover:bg-secondary transition-colors rounded"
-              onClick={() => setIsOpen(false)}
-            >
-              About
             </Link>
           </nav>
         )}
