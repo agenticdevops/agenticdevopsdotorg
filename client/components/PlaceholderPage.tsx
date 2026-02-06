@@ -8,7 +8,11 @@ interface PlaceholderPageProps {
   defaultContent?: string;
 }
 
-export default function PlaceholderPage({ title, description, defaultContent }: PlaceholderPageProps) {
+export default function PlaceholderPage({
+  title,
+  description,
+  defaultContent,
+}: PlaceholderPageProps) {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Header />
@@ -17,11 +21,17 @@ export default function PlaceholderPage({ title, description, defaultContent }: 
         <section className="py-20 md:py-32 px-4">
           <div className="container mx-auto">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{title}</h1>
-              <p className="text-lg text-muted-foreground mb-8">{description}</p>
+              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+                {title}
+              </h1>
+              <p className="text-lg text-muted-foreground mb-8">
+                {description}
+              </p>
               {defaultContent && (
                 <div className="bg-secondary/20 border border-border rounded-lg p-8 mb-12 text-left">
-                  <p className="text-muted-foreground whitespace-pre-wrap">{defaultContent}</p>
+                  <p className="text-muted-foreground whitespace-pre-wrap">
+                    {defaultContent}
+                  </p>
                 </div>
               )}
               <div className="p-8 bg-secondary/10 border-2 border-dashed border-border rounded-lg">
@@ -29,7 +39,8 @@ export default function PlaceholderPage({ title, description, defaultContent }: 
                   This page is ready to be filled with content.
                 </p>
                 <p className="text-sm text-muted-foreground mb-6">
-                  Continue prompting to customize this page's content and design.
+                  Continue prompting to customize this page's content and
+                  design.
                 </p>
                 <Link
                   to="/"

@@ -9,45 +9,106 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <Link
+            to="/"
+            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+          >
             <div className="w-10 h-10 flex items-center justify-center">
               <svg viewBox="0 0 100 100" className="w-full h-full">
                 {/* Triangle outline */}
-                <path d="M 50 10 L 90 90 L 10 90 Z" fill="none" stroke="currentColor" strokeWidth="3"/>
+                <path
+                  d="M 50 10 L 90 90 L 10 90 Z"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                />
                 {/* Top triangles */}
-                <path d="M 50 10 L 70 50 L 30 50 Z" fill="none" stroke="currentColor" strokeWidth="2"/>
+                <path
+                  d="M 50 10 L 70 50 L 30 50 Z"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                />
                 {/* Middle line */}
-                <line x1="30" y1="50" x2="70" y2="50" stroke="currentColor" strokeWidth="2"/>
+                <line
+                  x1="30"
+                  y1="50"
+                  x2="70"
+                  y2="50"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                />
                 {/* Smile arc and X */}
-                <path d="M 30 50 Q 50 70 70 50" fill="none" stroke="currentColor" strokeWidth="2"/>
-                <line x1="35" y1="55" x2="60" y2="80" stroke="currentColor" strokeWidth="2"/>
-                <line x1="65" y1="55" x2="40" y2="80" stroke="currentColor" strokeWidth="2"/>
+                <path
+                  d="M 30 50 Q 50 70 70 50"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                />
+                <line
+                  x1="35"
+                  y1="55"
+                  x2="60"
+                  y2="80"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                />
+                <line
+                  x1="65"
+                  y1="55"
+                  x2="40"
+                  y2="80"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                />
               </svg>
             </div>
             <div className="flex flex-col">
-              <span className="font-bold text-foreground text-base">Agentic</span>
-              <span className="text-xs text-muted-foreground">DevOps Collective</span>
+              <span className="font-bold text-foreground text-base">
+                Agentic
+              </span>
+              <span className="text-xs text-muted-foreground">
+                DevOps Collective
+              </span>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <Link to="/" className="text-sm text-foreground hover:text-primary transition-colors">
+            <Link
+              to="/"
+              className="text-sm text-foreground hover:text-primary transition-colors"
+            >
               Home
             </Link>
-            <Link to="/projects" className="text-sm text-foreground hover:text-primary transition-colors">
+            <Link
+              to="/projects"
+              className="text-sm text-foreground hover:text-primary transition-colors"
+            >
               Projects
             </Link>
-            <Link to="/community" className="text-sm text-foreground hover:text-primary transition-colors">
+            <Link
+              to="/community"
+              className="text-sm text-foreground hover:text-primary transition-colors"
+            >
               Community
             </Link>
-            <Link to="/resources" className="text-sm text-foreground hover:text-primary transition-colors">
+            <Link
+              to="/resources"
+              className="text-sm text-foreground hover:text-primary transition-colors"
+            >
               Resources
             </Link>
-            <Link to="/events" className="text-sm text-foreground hover:text-primary transition-colors">
+            <Link
+              to="/events"
+              className="text-sm text-foreground hover:text-primary transition-colors"
+            >
               Events
             </Link>
-            <Link to="/about" className="text-sm text-foreground hover:text-primary transition-colors">
+            <Link
+              to="/about"
+              className="text-sm text-foreground hover:text-primary transition-colors"
+            >
               About
             </Link>
           </nav>
@@ -57,7 +118,12 @@ export default function Header() {
             className="md:hidden p-2 hover:bg-secondary transition-colors rounded"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"

@@ -7,9 +7,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="font-bold text-foreground mb-4">Agentic DevOps Collective</h3>
+            <h3 className="font-bold text-foreground mb-4">
+              Agentic DevOps Collective
+            </h3>
             <p className="text-sm text-muted-foreground">
-              A practitioner-led community building open-source frameworks for agentic AI in DevOps.
+              A practitioner-led community building open-source frameworks for
+              agentic AI in DevOps.
             </p>
           </div>
 
@@ -18,17 +21,26 @@ export default function Footer() {
             <h4 className="font-semibold text-foreground mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a
+                  href="/"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   Home
                 </a>
               </li>
               <li>
-                <a href="/projects" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a
+                  href="/projects"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   Projects
                 </a>
               </li>
               <li>
-                <a href="/about" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a
+                  href="/about"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   About
                 </a>
               </li>
@@ -89,7 +101,8 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-border pt-8">
           <p className="text-center text-sm text-muted-foreground">
-            Built in the open by the community. © {currentYear} Agentic DevOps Collective.
+            Built in the open by the community. © {currentYear} Agentic DevOps
+            Collective.
           </p>
         </div>
       </div>

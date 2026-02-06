@@ -11,9 +11,12 @@ export default function About() {
         <section className="py-16 md:py-24 px-4">
           <div className="container mx-auto">
             <div className="max-w-3xl mx-auto">
-              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">About Us</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+                About Us
+              </h1>
               <p className="text-lg text-muted-foreground">
-                Learn about the mission, vision, and values of the Agentic DevOps Collective.
+                Learn about the mission, vision, and values of the Agentic
+                DevOps Collective.
               </p>
             </div>
           </div>
@@ -23,9 +26,12 @@ export default function About() {
         <section className="py-16 md:py-24 px-4 bg-secondary/20">
           <div className="container mx-auto">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold text-foreground mb-6">Our Mission</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-6">
+                Our Mission
+              </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                To foster a global, practitioner-led community advancing the practical application of agentic AI systems in DevOps and SRE.
+                To foster a global, practitioner-led community advancing the
+                practical application of agentic AI systems in DevOps and SRE.
               </p>
             </div>
           </div>
@@ -35,30 +41,44 @@ export default function About() {
         <section className="py-16 md:py-24 px-4">
           <div className="container mx-auto">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">What We Are</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
+                What We Are
+              </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="p-6 bg-secondary/10 border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-3">Community Initiative</h3>
+                  <h3 className="font-semibold text-foreground mb-3">
+                    Community Initiative
+                  </h3>
                   <p className="text-muted-foreground">
-                    A practitioner-led initiative bringing together DevOps and AI experts from across the industry.
+                    A practitioner-led initiative bringing together DevOps and
+                    AI experts from across the industry.
                   </p>
                 </div>
                 <div className="p-6 bg-secondary/10 border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-3">Open Source First</h3>
+                  <h3 className="font-semibold text-foreground mb-3">
+                    Open Source First
+                  </h3>
                   <p className="text-muted-foreground">
-                    We believe in the power of open source to drive innovation and advance the field collectively.
+                    We believe in the power of open source to drive innovation
+                    and advance the field collectively.
                   </p>
                 </div>
                 <div className="p-6 bg-secondary/10 border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-3">Vendor Neutral</h3>
+                  <h3 className="font-semibold text-foreground mb-3">
+                    Vendor Neutral
+                  </h3>
                   <p className="text-muted-foreground">
-                    Independent and neutral, focused on what's best for the community, not any single vendor.
+                    Independent and neutral, focused on what's best for the
+                    community, not any single vendor.
                   </p>
                 </div>
                 <div className="p-6 bg-secondary/10 border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-3">Builder Driven</h3>
+                  <h3 className="font-semibold text-foreground mb-3">
+                    Builder Driven
+                  </h3>
                   <p className="text-muted-foreground">
-                    Led by practitioners building real systems, not theorists or marketers.
+                    Led by practitioners building real systems, not theorists or
+                    marketers.
                   </p>
                 </div>
               </div>
@@ -70,24 +90,35 @@ export default function About() {
         <section className="py-16 md:py-24 px-4 bg-secondary/20">
           <div className="container mx-auto">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">What We Are Not</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
+                What We Are Not
+              </h2>
               <div className="space-y-4">
                 <div className="p-6 bg-background border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-2">Not a Standards Body</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    Not a Standards Body
+                  </h3>
                   <p className="text-muted-foreground">
-                    We focus on practical tools and patterns, not on creating formal standards or specifications.
+                    We focus on practical tools and patterns, not on creating
+                    formal standards or specifications.
                   </p>
                 </div>
                 <div className="p-6 bg-background border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-2">Not a Foundation</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    Not a Foundation
+                  </h3>
                   <p className="text-muted-foreground">
-                    We're a community initiative. Governance is lightweight and focused on enabling builders.
+                    We're a community initiative. Governance is lightweight and
+                    focused on enabling builders.
                   </p>
                 </div>
                 <div className="p-6 bg-background border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-2">Not a Vendor Marketplace</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    Not a Vendor Marketplace
+                  </h3>
                   <p className="text-muted-foreground">
-                    We're not a platform for vendors to promote their products. We focus on open source and community projects.
+                    We're not a platform for vendors to promote their products.
+                    We focus on open source and community projects.
                   </p>
                 </div>
               </div>
@@ -99,30 +130,44 @@ export default function About() {
         <section className="py-16 md:py-24 px-4">
           <div className="container mx-auto">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold text-foreground mb-6">Community Values</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-6">
+                Community Values
+              </h2>
               <div className="space-y-4">
                 <div className="p-6 border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-2">Openness</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    Openness
+                  </h3>
                   <p className="text-muted-foreground">
-                    We embrace open source, open communication, and transparent decision-making.
+                    We embrace open source, open communication, and transparent
+                    decision-making.
                   </p>
                 </div>
                 <div className="p-6 border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-2">Collaboration</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    Collaboration
+                  </h3>
                   <p className="text-muted-foreground">
-                    We believe in the power of collaboration to solve complex problems.
+                    We believe in the power of collaboration to solve complex
+                    problems.
                   </p>
                 </div>
                 <div className="p-6 border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-2">Pragmatism</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    Pragmatism
+                  </h3>
                   <p className="text-muted-foreground">
-                    We focus on practical, real-world solutions for DevOps and SRE challenges.
+                    We focus on practical, real-world solutions for DevOps and
+                    SRE challenges.
                   </p>
                 </div>
                 <div className="p-6 border border-border rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-2">Inclusivity</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    Inclusivity
+                  </h3>
                   <p className="text-muted-foreground">
-                    Everyone is welcome to participate, contribute, and help shape our direction.
+                    Everyone is welcome to participate, contribute, and help
+                    shape our direction.
                   </p>
                 </div>
               </div>
@@ -134,9 +179,13 @@ export default function About() {
         <section className="py-16 md:py-24 px-4 bg-secondary/20">
           <div className="container mx-auto">
             <div className="max-w-2xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Get Involved</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+                Get Involved
+              </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Whether you're interested in contributing to open source projects, sharing knowledge, or just learning from the community, there's a place for you.
+                Whether you're interested in contributing to open source
+                projects, sharing knowledge, or just learning from the
+                community, there's a place for you.
               </p>
               <div className="flex flex-col md:flex-row gap-4 justify-center">
                 <a
