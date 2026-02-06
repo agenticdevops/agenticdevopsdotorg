@@ -82,6 +82,12 @@ export default function Header() {
               Home
             </Link>
             <Link
+              to="/the-collective"
+              className="text-sm text-foreground hover:text-primary transition-colors"
+            >
+              The Collective
+            </Link>
+            <Link
               to="/projects"
               className="text-sm text-foreground hover:text-primary transition-colors"
             >
@@ -104,12 +110,6 @@ export default function Header() {
               className="text-sm text-foreground hover:text-primary transition-colors"
             >
               Events
-            </Link>
-            <Link
-              to="/about"
-              className="text-sm text-foreground hover:text-primary transition-colors"
-            >
-              About
             </Link>
           </nav>
 
