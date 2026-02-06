@@ -39,6 +39,11 @@ const Root = () => (
 );
 
 const rootElement = document.getElementById("root");
-if (rootElement && !rootElement.__reactRootContainer) {
-  createRoot(rootElement).render(<Root />);
+if (rootElement) {
+  // Check if root was already created to prevent duplicate createRoot() calls during HMR
+  const rootKey = "__reactRoot";
+  if (!(window as any)[rootKey]) {
+    (window as any)[rootKey] = createRoot(rootElement);
+  }
+  (window as any)[rootKey].render(<Root />);
 }
